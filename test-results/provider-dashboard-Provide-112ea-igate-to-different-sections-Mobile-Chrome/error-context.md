@@ -1,0 +1,92 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - main [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e7]:
+          - generic [ref=e8]: AF
+          - generic [ref=e9]:
+            - paragraph [ref=e10]: Good morning,
+            - heading "Alex Farr" [level=1] [ref=e11]
+        - generic [ref=e13]:
+          - generic [ref=e14]:
+            - heading "2" [level=2] [ref=e15]
+            - paragraph [ref=e16]: Total Bookings
+          - generic [ref=e17]:
+            - heading "0" [level=2] [ref=e18]
+            - paragraph [ref=e19]: Completed
+        - generic [ref=e20]:
+          - button "Available" [ref=e21] [cursor=pointer]
+          - button "Scheduled" [ref=e22] [cursor=pointer]
+          - button "Completed" [ref=e23] [cursor=pointer]
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - generic [ref=e26]: Urgent
+            - generic [ref=e27]:
+              - img [ref=e29]
+              - generic [ref=e31]:
+                - heading "Deep Clean" [level=3] [ref=e32]
+                - paragraph [ref=e33]: John Doe
+            - generic [ref=e34]:
+              - generic [ref=e35]:
+                - img [ref=e36]
+                - generic [ref=e39]: 123 Main St, Anytown, USA
+              - generic [ref=e40]:
+                - img [ref=e41]
+                - generic [ref=e44]: Today at 4:00 PM
+              - generic [ref=e45]:
+                - img [ref=e46]
+                - generic [ref=e50]: Key under mat
+              - generic [ref=e51]:
+                - img [ref=e52]
+                - generic [ref=e54]: Est. $150 + $25 tip
+            - generic [ref=e55]:
+              - button "Accept" [ref=e56] [cursor=pointer]
+              - button "View Details" [ref=e57] [cursor=pointer]
+          - generic [ref=e58]:
+            - generic [ref=e59]: 5.1 mi
+            - generic [ref=e60]:
+              - img [ref=e62]
+              - generic [ref=e64]:
+                - heading "Standard Clean" [level=3] [ref=e65]
+                - paragraph [ref=e66]: Jane Smith
+            - generic [ref=e67]:
+              - generic [ref=e68]:
+                - img [ref=e69]
+                - generic [ref=e72]: 456 Oak Ave, Anytown, USA
+              - generic [ref=e73]:
+                - img [ref=e74]
+                - generic [ref=e77]: Tomorrow at 2:30 PM
+              - generic [ref=e78]:
+                - img [ref=e79]
+                - generic [ref=e83]: "Door code: 1234"
+              - generic [ref=e84]:
+                - img [ref=e85]
+                - generic [ref=e87]: Est. $80
+            - generic [ref=e88]:
+              - button "Accept" [ref=e89] [cursor=pointer]
+              - button "View Details" [ref=e90] [cursor=pointer]
+    - generic [ref=e92]:
+      - link "Jobs" [active] [ref=e93] [cursor=pointer]:
+        - /url: /
+        - img [ref=e95] [cursor=pointer]
+        - generic [ref=e98] [cursor=pointer]: Jobs
+      - link "Calendar" [ref=e99] [cursor=pointer]:
+        - /url: /calendar
+        - img [ref=e101] [cursor=pointer]
+        - generic [ref=e103] [cursor=pointer]: Calendar
+      - link "Earnings" [ref=e104] [cursor=pointer]:
+        - /url: /earnings
+        - img [ref=e106] [cursor=pointer]
+        - generic [ref=e108] [cursor=pointer]: Earnings
+      - link "Profile" [ref=e109] [cursor=pointer]:
+        - /url: /profile
+        - img [ref=e111] [cursor=pointer]
+        - generic [ref=e114] [cursor=pointer]: Profile
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications (F8)":
+    - list
+```
